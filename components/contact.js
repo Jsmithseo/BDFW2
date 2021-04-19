@@ -88,7 +88,8 @@ const ContactForm = () => {
         }`}
         onSubmit={handleSubmit}
       >
-        <h3>Contact Us</h3>
+        <h3>Schedule a FREE Demo</h3>
+        <p>Fill-out the form below to schedule your free demo. You must have a minimum of 5 vehicles to qualify. A free quote will be provided at time of demo.</p>
         <label className={styles.label}>
           Name
           <input

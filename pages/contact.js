@@ -22,13 +22,12 @@ const Contact = () => {
           <Container>
             <Row>
               <Col md="6">
-                <h3>
-                  <a href="tel:+15109562978">510 956 2978</a>
-                </h3>
-                <h3>
-                  <a href="mailto:mcct@smcsd.org">mcct@smcsd.org</a>
-                </h3>
-                <h3>Marin City, CA 94965</h3>
+              <h4>We Provide Services 7 Days a Week!
+Office Hours:
+Mon – Fri 8:00 am to 4:00 pm</h4>
+<p>1-855-60BLACK - Main Line</p>
+<p>(510) 344-2549 - Direct Line</p>
+
               </Col>
 
               <Col md="6">
