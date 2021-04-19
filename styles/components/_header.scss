@@ -6,7 +6,7 @@
   z-index: 15;
   padding: 20px 20px;
   position: absolute;
-  background-color: #285476;
+  background-color: #7F3A96;
 
   .port-navbar {
     &-brand {
@@ -86,7 +86,7 @@
       }
 
       a.nav-link.port-navbar-link.port-dropdown-item {
-        color: black !important;
+        color: black!important;
       }
 
       h1.display-4.text-white {
@@ -94,7 +94,7 @@
       }
 
       .port-navbar.port-default {
-        background-color: #285476;
+        background-color: rgb(160, 147, 147);
       }
     }
   }

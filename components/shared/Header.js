@@ -110,10 +110,10 @@ const Header = ({ user, loading, className }) => {
                 <BsNavLink href="/" title="Home" />
               </NavItem>
               <NavItem className="port-navbar-item">
-                <BsNavLink href="/about" title="about" />
+                <BsNavLink href="/services" title="services" />
               </NavItem>
               <NavItem className="port-navbar-item">
-                <BsNavLink href="/leadership" title="leadership" />
+                <BsNavLink href="/about" title="About" />
               </NavItem>
               <NavItem className="port-navbar-item">
                 <BsNavLink href="/contact" title="contact" />
@@ -131,7 +131,7 @@ const Header = ({ user, loading, className }) => {
               <BsNavLink href="/onlyadminssr" title="AdminSSR"/>
             </NavItem> */}
             </Nav>
-            <Nav navbar>
+            {/* <Nav navbar>
               {!loading && (
                 <>
                   {user && (
@@ -149,7 +149,7 @@ const Header = ({ user, loading, className }) => {
                   )}
                 </>
               )}
-            </Nav>
+            </Nav> */}
           </Collapse>
         </Navbar>
       )}

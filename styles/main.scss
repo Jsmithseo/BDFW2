@@ -52,7 +52,7 @@ body {
   color: #ffffff;
   font-weight: bold;
   letter-spacing: 2px;
-  background-color: #3d88cb;
+  background-color: #7F3A96;
   padding: 0.25em;
 }
 
@@ -74,12 +74,12 @@ body {
 }
 
 .btn-primary {
-  background-color: #3d88cb;
+  background-color: #7F3A96;
   color: #ffffff;
-  border-color: #3d88cb;
+  border-color: #7F3A96;
   font-weight: 600;
   &:hover {
-    background-color: #4376a4;
+    background-color: #7F3A96;
   }
 }
 .absolute {
@@ -186,4 +186,8 @@ body {
   }
 }
 
+
+.followustext {
+  color: #000!important;
+}
 

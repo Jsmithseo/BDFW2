@@ -5,7 +5,7 @@ import BaseLayout from "../components/layouts/BaseLayout";
 import BasePage from "../components/BasePage";
 import { useGetUser } from "@/actions/user";
 
-const About = () => {
+const Services = () => {
   const { data, loading } = useGetUser();
 
   useEffect(() => {
@@ -26,92 +26,6 @@ const About = () => {
     <>
       <BaseLayout user={data} loading={loading}>
         <BasePage>
-          <Container>
-            <Row className={`{crisis_callout ${createFadeInClass()}`}>
-              <Col md="10">
-                <h3>Crisis Care Team</h3>
-                <p>
-                  The Crisis Care Team is a collaboration between public and
-                  private sectors to integrate services for people experiencing
-                  homelessness, mental illness, substance abuse disorders and
-                  domestic violence. Team members are available 24/7.
-                </p>
-              </Col>
-              <Col md="2">
-                <Button href="tel:+15109562978" color="primary" size="lg">
-                  Call Now
-                </Button>
-              </Col>
-            </Row>
-
-            <Row className={`{hero} ${createFadeInClass()}`}>
-              <Col sm="12">
-                <img
-                  src="https://images.squarespace-cdn.com/content/v1/5ebaf8af593d7e00d9fda34c/1590091033213-W898FTQU4YB3CVL4XZO4/ke17ZwdGBToddI8pDm48kGwqNa-TSATgABi909OK27Z7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UQSxQa_pE67Ig1CszvlZo11NCLvqIlshiNC_JCcjnOmqOV4zqrbdg_2AqIEjj1Z3Fg/mcct-5-13-20_0040.jpg?format=2500w"
-                  alt=""
-                  width="100% "
-                />
-                <h1>About MCCT </h1>
-                <p>
-                  The Marin County Cooperation Team (MCCT) was originally
-                  created for the community members of Marin City as a response
-                  to COVID-19 to ensure continuation of comprehensive support
-                  services for our Bayside Martin Luther King Jr Academy, Willow
-                  Creek Academy students, and the community at large. As the
-                  pandemic progressed, we were made aware of the support needs
-                  from various demographics. A call to action was made to create
-                  a task force designed to identify areas and individuals who
-                  could potentially be overlooked during the COVID-19 crisis. We
-                  are dedicated to providing the highest quality of full
-                  comprehensive support services delivered with empathy, care,
-                  and trust. MCCT has created seven teams to support the needs
-                  within the community. Each team has its own collection of
-                  dedicated professionals. They are all coordinated under one
-                  umbrella but work independently on a day to day basis. Each
-                  team makes in person, email or phone contact with families and
-                  individuals to assess what they need. With the support of the
-                  Marin City community, community-based organizations and the
-                  Sausalito-Marin City School District, we have achieved our
-                  goal to extend the Marin County Cooperation Team’s support to
-                  other communities in and around Marin County.
-                </p>
-                <Button color="primary" size="lg">
-                  Get Help Today
-                </Button>
-              </Col>
-            </Row>
-            <Row className="vision">
-              <Col md="6">
-                <h3>Vision</h3>
-                <p>
-                  The Marin County Cooperation Team envisions an increase in
-                  health, wellness, educational outcomes, and economic
-                  opportunities for the people we serve. Transparent and robust
-                  civic engagement with those who have traditionally been
-                  marginalized will be realized through our partnerships. All
-                  Marin County residents will experience an overall improved
-                  quality of life through service, relationships, connection,
-                  and equity.
-                </p>
-              </Col>
-              <Col md="6">
-                <h3>Purpose</h3>
-                <p>
-                  The Marin County Cooperation Team (MCCT) serves the citizens
-                  of Marin County through the provision of comprehensive support
-                  services and resources in the areas of family needs, senior
-                  and disability support, the arts, education, career readiness,
-                  mental health, wellness, crisis care and civic and community
-                  engagement. Our calling is to surround the most vulnerable
-                  members of our community with programs and services which
-                  address both critical and long-term needs. We do so in a
-                  timely and effective manner by utilizing a highly organized
-                  network of community based organizations in partnership with
-                  local, state and federal agencies.
-                </p>
-              </Col>
-            </Row>
-          </Container>
           <section className="teams">
             <Container>
               <Row className="teamRow">
@@ -122,23 +36,8 @@ const About = () => {
                   />
                 </Col>
                 <Col className="textCol" md="6">
-                  <h3>College and Career Readiness Team</h3>
+                  <h3>Exterior Washing</h3>
                   <p>
-                    The College and Career Readiness Team helps support students
-                    and community residents with higher education and career
-                    planning. Team members help residents complete applications
-                    for enrollment, financial aid, Medi-Cal, scholarships and
-                    government subsidy programs. During the Covid-19 pandemic,
-                    the team is focused on supporting students in remote
-                    learning environments with skills to stay connected to their
-                    academic institutions, complete coursework, and develop time
-                    management skills. The team also provides a variety of
-                    career-related assistance, including the following: career
-                    counseling; career and interest assessments; job search
-                    assistance (including help with job applications,
-                    interviewing, resumes, cover letters, etc.); and current
-                    labor-market information (including job outlook, current
-                    demand, and average wages).
                   </p>
                 </Col>
               </Row>
@@ -267,4 +166,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Services;
