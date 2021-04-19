@@ -94,6 +94,11 @@ const Header = ({ user, loading, className }) => {
   const menuOpenClass = isOpen ? "menu-open" : "menu-close";
 
   return (
+    <>
+                  <img
+                    src="https://www.blackdiamondfleetwashing.services/wp-content/uploads/2020/05/Logo.png"
+                    alt=""
+                  />
     <ReactResizeDetector handleWidth>
       {({ width }) => (
         <Navbar
@@ -154,6 +159,7 @@ const Header = ({ user, loading, className }) => {
         </Navbar>
       )}
     </ReactResizeDetector>
+    </>
   );
 };
 

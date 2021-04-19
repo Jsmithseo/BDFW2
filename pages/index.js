@@ -10,15 +10,6 @@ const ROLES = [
   "Interior Wipe Down",
   "Interior Vaccum",
   "Tar Removal"
-
-
-
-
-
-
-
-
-
 ];
 
 const Index = () => {
@@ -43,7 +34,7 @@ const Index = () => {
             >
               <div className="hero-welcome-main">
                 <div className="hero-welcome-text">
-                  <h2 className="display-4">
+                  <h2 className="display-4 text-white">
                     Black Diamond Fleet Washing
                   </h2>
                   <p className="lead text-white font-weight-light">
