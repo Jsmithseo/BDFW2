@@ -56,9 +56,10 @@ const Index = () => {
                     <br></br>
                   </p>
                 </div>
+                <a href="/quote">
                 <Button color="primary" size="lg">
                 Schedule a Demo
-                </Button>{" "}
+                </Button></a>{" "}
                 <div className="hero-welcome-bio">
                   <p className="mb-2 text-white">
                   </p>

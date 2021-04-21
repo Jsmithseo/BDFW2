@@ -12,6 +12,7 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
+    "@aaronhayes/react-use-hubspot-form": "^1.2.4",
     "@auth0/nextjs-auth0": "^0.11.0",
     "axios": "^0.21.1",
     "babel-plugin-transform-define": "^2.0.0",
