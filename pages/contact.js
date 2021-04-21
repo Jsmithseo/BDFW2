@@ -2,7 +2,8 @@ import React from "react";
 import { useGetUser } from "@/actions/user";
 import BaseLayout from "@/components/layouts/BaseLayout";
 import BasePage from "@/components/BasePage";
-import ContactForm from "@/components/contact"
+import HubspotForm from 'react-hubspot-form'
+
 
 
 import {
@@ -31,7 +32,13 @@ Mon – Fri 8:00 am to 4:00 pm</h4>
               </Col>
 
               <Col md="6">
-                <ContactForm/>
+                <HubspotForm
+   portalId='19901556'
+   formId='e36a688-b3e4-4d69-a8e7-939f4b9e13e8'
+   onSubmit={() => console.log('Submit!')}
+   onReady={(form) => console.log('Form ready!')}
+   loading={<div>Loading...</div>}
+   />
               </Col>
             </Row>
           </Container>

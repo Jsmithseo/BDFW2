@@ -21,8 +21,7 @@
     }
 
     &-link {
-      color: white;
-
+      color: black;
       letter-spacing: 0.8px;
       text-transform: uppercase;
 
@@ -81,6 +80,7 @@
         @media (min-width: 768px) {
           justify-content: space-around;
           position: relative;
+          
         }
       }
 
