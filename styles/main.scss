@@ -52,7 +52,7 @@ body {
   color: #ffffff;
   font-weight: bold;
   letter-spacing: 2px;
-  background-color: #7F3A96;
+  background-color: #7f3a96;
   padding: 0.25em;
 }
 
@@ -74,12 +74,12 @@ body {
 }
 
 .btn-primary {
-  background-color: #7F3A96;
+  background-color: #7f3a96;
   color: #ffffff;
-  border-color: #7F3A96;
+  border-color: #7f3a96;
   font-weight: 600;
   &:hover {
-    background-color: #7F3A96;
+    background-color: #7f3a96;
   }
 }
 .absolute {
@@ -185,13 +185,10 @@ body {
     padding-top: 50px;
   }
   ul.mr-auto.navbar-nav {
-    background-color: gray!important;
+    background-color: gray !important;
   }
 }
 
-
 .followustext {
-  color: #000!important;
+  color: #000 !important;
 }
-
-

@@ -95,35 +95,23 @@ const Header = ({ user, loading, className }) => {
 
   return (
     <>
-                  <img
-                    src="https://www.blackdiamondfleetwashing.services/wp-content/uploads/2020/05/Logo.png"
-                    alt=""
-                  />
-    <ReactResizeDetector handleWidth>
-      {({ width }) => (
-        <Navbar
-          className={`port-navbar port-default ${className}  ${
-            width < 768 && isOpen ? "is-open" : "is-close"
-          } ${menuOpenClass}`}
-          dark
-          expand="md"
-        >
-          <NavbarToggler onClick={toggle} />
-          <Collapse isOpen={isOpen} navbar>
-            <Nav className="mr-auto" navbar>
-              <NavItem className="port-navbar-item">
-                <BsNavLink href="/" title="Home" />
-              </NavItem>
-              <NavItem className="port-navbar-item">
-                <BsNavLink href="/services" title="services" />
-              </NavItem>
-              <NavItem className="port-navbar-item">
-                <BsNavLink href="/about" title="About" />
-              </NavItem>
-              <NavItem className="port-navbar-item">
-                <BsNavLink href="/contact" title="contact" />
-              </NavItem>
-              {/* <NavItem className="port-navbar-item">
+      <img
+        src="https://www.blackdiamondfleetwashing.services/wp-content/uploads/2020/05/Logo.png"
+        alt=""
+      />
+      <ReactResizeDetector handleWidth>
+        {({ width }) => (
+          <Navbar
+            className={`port-navbar port-default ${className}  ${
+              width < 768 && isOpen ? "is-open" : "is-close"
+            } ${menuOpenClass}`}
+            dark
+            expand="md"
+          >
+            <NavbarToggler onClick={toggle} />
+            <Collapse isOpen={isOpen} navbar>
+              <Nav className="mr-auto" navbar>
+                {/* <NavItem className="port-navbar-item">
               <BsNavLink href="/secret" title="Secret"/>
             </NavItem>
             <NavItem className="port-navbar-item">
@@ -135,8 +123,8 @@ const Header = ({ user, loading, className }) => {
             <NavItem className="port-navbar-item">
               <BsNavLink href="/onlyadminssr" title="AdminSSR"/>
             </NavItem> */}
-            </Nav>
-            {/* <Nav navbar>
+              </Nav>
+              {/* <Nav navbar>
               {!loading && (
                 <>
                   {user && (
@@ -155,10 +143,10 @@ const Header = ({ user, loading, className }) => {
                 </>
               )}
             </Nav> */}
-          </Collapse>
-        </Navbar>
-      )}
-    </ReactResizeDetector>
+            </Collapse>
+          </Navbar>
+        )}
+      </ReactResizeDetector>
     </>
   );
 };

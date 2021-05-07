@@ -1,1 +1,1 @@
-const prod = process.env.NODE_ENV === 'production';
+const prod = process.env.NODE_ENV === "production";
