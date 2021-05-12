@@ -20,6 +20,7 @@ const Contact = () => {
         <BasePage>
           <Container>
             <Row>
+          
               <Col md="6">
                 <h4>
                   We Provide Services 7 Days a Week! Office Hours: Mon – Fri

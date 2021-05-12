@@ -27,7 +27,7 @@ const Index = () => {
           happy and achieve top-notch fleet washing results. Just imagine what
           our proven services can do for your fleet.
         </p>
-        <p>Serving Bay Area 7 Days a Week</p>
+        <p className="serving">Serving Bay Area 7 Days a Week</p>
         <p className="lead">
           <Button color="primary">Schedule a Demo</Button>
         </p>

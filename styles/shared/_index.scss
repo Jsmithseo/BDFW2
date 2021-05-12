@@ -15,7 +15,9 @@
 
 .jumbotron {
   background-image: url(https://www.blackdiamondfleetwashing.services/wp-content/uploads/2020/05/Black-Diamond-Professional-fleet-detailing-Service.png);
+  text-align: center;
 }
+
 .main-section {
   top: 150px;
   width: 100%;
@@ -75,7 +77,18 @@
 .hero-welcome-wrapper {
   justify-content: flex-end;
 }
-
+.serving {
+ color: #fff;
+}
+// .row {
+//   background-color: red;
+// }
+.week {
+    padding-top: 330px;
+  padding-right: 130px;
+}
+.free {
+  padding-top: 165px;}
 @media (max-width: 991px) {
   .hero-section {
     width: 341px;

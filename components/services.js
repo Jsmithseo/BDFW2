@@ -20,7 +20,7 @@ const Services = () => {
             <CardImg
               top
               width="100%"
-              src="/assets/318x180.svg"
+              src="/images/spray1.jpg"
               alt="Card image cap"
             />
             <CardBody>
@@ -37,7 +37,7 @@ const Services = () => {
             <CardImg
               top
               width="100%"
-              src="/assets/318x180.svg"
+              src="/images/interior1.jpg"
               alt="Card image cap"
             />
             <CardBody>
@@ -54,7 +54,7 @@ const Services = () => {
             <CardImg
               top
               width="100%"
-              src="/assets/318x180.svg"
+              src="/images/wipe.jpg"
               alt="Card image cap"
             />
             <CardBody>
@@ -71,7 +71,7 @@ const Services = () => {
             <CardImg
               top
               width="100%"
-              src="/assets/318x180.svg"
+              src="/images/tar.png"
               alt="Card image cap"
             />
             <CardBody>
