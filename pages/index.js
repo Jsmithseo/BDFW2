@@ -19,7 +19,7 @@ const Index = () => {
     <BaseLayout>
       <Jumbotron>
         <h2 className="lead">
-          Fleet Wash, Preventative Maintenance, Disinfection
+          Wash, Maintenance & Disinfection
         </h2>
         <hr className="my-2" />
         <p className="Tagline">
@@ -35,15 +35,15 @@ const Index = () => {
       <BasePage>
         <Row>
           <Col>
-            <h3>What Our Customers Say</h3>
-            <p>
-              Black Diamond has been very efficient and thorough when taking
+            <h3>What Our Customers Say?</h3>
+            <p className = "review">
+              "Black Diamond has been very efficient and thorough when taking
               care of our fleet of 45 company vans. They worked around our
               schedule whether it was early morning our late evening. They even
               traveled to my location to wash/detail my personal car. I learned
               of them through a referral and the information was accurate to a
               T. I would recommend this wash/detail to anyone looking for a
-              complete efficient job for your buck
+              complete efficient job for your buck."
             </p>
           </Col>
         </Row>

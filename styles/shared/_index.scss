@@ -80,11 +80,8 @@
 .serving {
  color: #fff;
 }
-// .row {
-//   background-color: red;
-// }
-.week {
-    padding-top: 330px;
+
+.week {  padding-top: 330px;
   padding-right: 130px;
 }
 .free {
@@ -127,4 +124,13 @@
 .shadow-custom-2 {
   border: 2px solid #f37d49;
   box-shadow: -17px 13px 41px rgba(13, 78, 158, 0.3);
+}
+
+h3{
+  font-size: 2.5rem;
+  padding-bottom: 20px;
+}
+
+.review{
+  font-style: italic;
 }
