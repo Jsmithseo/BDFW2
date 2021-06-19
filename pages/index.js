@@ -6,6 +6,8 @@ import { Container, Row, Col, Button, Jumbotron } from "reactstrap";
 import Typed from "react-typed";
 import { SocialIcon } from "react-social-icons";
 import DuelForm from "@/components/duelForms";
+import {Link} from 'react-scroll'
+import ScrollToBottom from "@/components/ScrollButton"
 
 const ROLES = [
   "Exterior Washing",
@@ -13,6 +15,9 @@ const ROLES = [
   "Interior Vaccum",
   "Tar Removal",
 ];
+
+
+
 
 const Index = () => {
   return (
@@ -29,7 +34,10 @@ const Index = () => {
         </p>
         <p className="serving">Serving Bay Area 7 Days a Week</p>
         <p className="lead">
-          <Button color="primary">Schedule a Demo</Button>
+        <ScrollToBottom>
+        Schedule Demo
+        </ScrollToBottom>
+        
         </p>
       </Jumbotron>
       <BasePage>

@@ -229,5 +229,31 @@ button.btn.btn-primary:hover {
 
 
 
+.scroll-to-bottom {
+  top: 12000px;
+  width: 200px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.scroll-to-bottom .icon {
+  margin-top: 10px;
+  animation: scrollBottom 0.5s alternate ease infinite;
+}
+
+
+@keyframes scrollBottom {
+  from {
+      transform: translateY(2px)
+  }
+
+  to {
+    transform: translateY(-1px)
+  }
+}
 
 
