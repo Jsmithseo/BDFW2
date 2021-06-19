@@ -49,7 +49,7 @@ const Services = () => {
             </CardBody>
           </Card>
         </Col>
-        <Col sm="3">
+        <Col xs="6" sm="3">
           <Card>
             <CardImg
               top
@@ -66,7 +66,7 @@ const Services = () => {
             </CardBody>
           </Card>
         </Col>
-        <Col sm="3">
+        <Col xs="6" sm="3">
           <Card>
             <CardImg
               top
